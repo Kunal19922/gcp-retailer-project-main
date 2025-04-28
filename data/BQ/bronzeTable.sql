@@ -89,7 +89,7 @@ OPTIONS (
   uris = ['gs://retailer-datalake-project-27032025/landing/supplier-db/product_suppliers/*.json']
 );
 
--------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------
 
 CREATE OR REPLACE EXTERNAL TABLE `avd-databricks-demo.bronze_dataset.customer_reviews` (
   id STRING,
