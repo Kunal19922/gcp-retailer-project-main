@@ -59,7 +59,7 @@ OPTIONS (
     format = 'JSON',
     uris = ['gs://retailer-datalake-project-27032025/landing/retailer-db/order_items/*.json']
 );
--------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 -- Suppliers Table
 CREATE EXTERNAL TABLE IF NOT EXISTS `avd-databricks-demo.bronze_dataset.suppliers` (
     supplier_id INT64,
