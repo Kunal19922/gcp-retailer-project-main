@@ -21,7 +21,7 @@ else:
     print(f"❌ Failed to fetch data. Status Code: {response.status_code}")
     exit()
     
-# Step 2: Convert API Data to Pandas DataFrame
+# Step 2: Convert API Data to Pandas DataFrame  
 df_pandas = pd.DataFrame(data)
 
 # Step 3: Get Current Date for File Naming
